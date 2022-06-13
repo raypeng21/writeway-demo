@@ -1,0 +1,27 @@
+.OnlineUser{
+    .Online_friend{
+        background-color:green;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 5px solid #eadacf;
+        position: relative;
+        left: 35px;
+        bottom:58px;
+    }
+    
+    .Offline_friend{
+        background-color: red;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 5px solid #eadacf;
+        position: relative;
+        left: 35px;
+        bottom:58px;
+    
+    }
+
+}
+
+

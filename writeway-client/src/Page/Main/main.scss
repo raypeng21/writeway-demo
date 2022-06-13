@@ -1,0 +1,63 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .body{
+        display: flex;
+        justify-content: center;
+        margin-top:10px;
+        .background{
+            top: 0;
+            position: fixed;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -3;
+        }
+        .video_background{
+            position: fixed;
+            right: 0;
+            top: 0;
+            min-width: 100%;
+            min-height: 100%;
+            top: 0;
+            z-index: -2;
+        }
+
+
+        .body_left{
+            flex: 0.3;
+            .main_card{
+                margin-left: 30px;
+                opacity: 0.6;
+
+            }
+
+        }
+
+        .body_mid{
+            flex: 0.4;
+
+            .txt{
+                height: 900px;
+                width: 700px;
+                resize: none;
+                background-color: #eadacf;
+                border: 0;
+                font-size: 20px;
+                outline: none;
+                opacity: 0.5;
+                border-radius: 5px;
+
+
+            }
+
+            
+        }
+
+        .body_right{
+            flex: 0.3;
+            
+        }
+    }
+}
